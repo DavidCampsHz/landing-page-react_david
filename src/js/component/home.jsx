@@ -9,9 +9,11 @@ const Home = () => {
 	return (
 		<div>
 			<NavBar></NavBar>
-			<CarouseL></CarouseL>
+			<div className="container">
+				<CarouseL></CarouseL>
+				<Cards></Cards>
+			</div>
 			<Footer></Footer>
-			<Cards></Cards>
 		</div>
 	);
 };
