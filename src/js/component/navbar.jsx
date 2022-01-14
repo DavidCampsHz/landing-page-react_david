@@ -4,8 +4,8 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 const NavBar = () => {
 	return (
 		<>
-			<Container>
-				<Navbar bg="dark" variant="dark">
+			<Container-fluid>
+				<Navbar bg="dark" variant="dark" fixed="top">
 					<Nav className="me-auto" activeKey="/home">
 						<Nav.Item>
 							<Nav.Link href="startbootstrap">
@@ -20,7 +20,7 @@ const NavBar = () => {
 						<Nav.Link href="#contact">Contact</Nav.Link>
 					</Nav>
 				</Navbar>
-			</Container>
+			</Container-fluid>
 		</>
 	);
 };

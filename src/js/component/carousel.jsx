@@ -12,10 +12,10 @@ const CarouseL = () => {
 						alt="First slide"
 					/>
 					<Carousel.Caption>
-						<h5>First slide label</h5>
+						<h5>Il tramonto</h5>
 						<p>
-							Nulla vitae elit libero, a pharetra augue mollis
-							interdum.
+							È praticamente impossibili guardare un tramonto é
+							non sognare
 						</p>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -26,11 +26,8 @@ const CarouseL = () => {
 						alt="Second slide"
 					/>
 					<Carousel.Caption>
-						<h5>Second slide label</h5>
-						<p>
-							Nulla vitae elit libero, a pharetra augue mollis
-							interdum.
-						</p>
+						<h5>Il mare</h5>
+						<p>Take me to the ocean</p>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -40,10 +37,10 @@ const CarouseL = () => {
 						alt="Third slide"
 					/>
 					<Carousel.Caption>
-						<h5>Third slide label</h5>
+						<h5>Un'altro tramonto</h5>
 						<p>
-							Nulla vitae elit libero, a pharetra augue mollis
-							interdum.
+							Toma riesgos. Si ganas serás más feliz. Si pierdes
+							serás más sabio.
 						</p>
 					</Carousel.Caption>
 				</Carousel.Item>
