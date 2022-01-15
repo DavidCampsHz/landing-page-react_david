@@ -1,16 +1,17 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 const Cards = (props) => {
 	return (
 		<Card>
 			<Card.Img variant="top" src={props.thumbnail} />
-			<Card.Body>
+			<Card.Body className="text-center">
 				<Card.Title>{props.title}</Card.Title>
 				<Card.Text>{props.cardcontent}</Card.Text>
 			</Card.Body>
-			<Card.Footer>
-				<small className="text-muted">{props.date}</small>
+			<Card.Footer className="text-center">
+				<Button variant="primary">Visit {props.title}</Button>
 			</Card.Footer>
 		</Card>
 	);
